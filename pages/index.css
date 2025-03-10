@@ -1,4 +1,5 @@
 @import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/intro.css");
@@ -6,7 +7,7 @@
 @import url("../blocks/media.css");
 
 .page {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter-Black", "Inter-Regular", sans-serif;
   color: #ffffff;
   background-color: #2a2c2f;
   max-width: 1280px;
@@ -14,11 +15,12 @@
 }
 
 .header {
+  font-family: "Inter-Black";
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 34px;
 }
 
 .header__logo {
@@ -28,6 +30,7 @@
 }
 
 .header__paragraph {
+  font-family: "Inter-Regular";
   display: flex;
   width: 254.84px;
   height: 14.94px;
@@ -46,11 +49,11 @@
 }
 
 .intro__title {
+  font-family: "Inter-Black";
   font-size: 96px;
   line-height: 100px;
   letter-spacing: 0%;
   text-align: center;
-  font-family: Inter;
   font-weight: 900;
   margin-bottom: 20px;
 }
@@ -60,6 +63,7 @@
 }
 
 .intro__description {
+  font-family: "Inter-Regular";
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0%;
@@ -70,14 +74,12 @@
 
 .intro__image {
   filter: grayscale(100%);
-  width: 984;
-  height: 615;
   top: 562px;
   left: 148px;
 }
 
 .intro__subtitle {
-  font-family: Inter;
+  font-family: "Inter-Black";
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -86,6 +88,7 @@
 }
 
 .intro__text {
+  font-family: "Inter-Regular";
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -95,6 +98,7 @@
 }
 
 .intro__text--2 {
+  font-family: "Inter-Regular";
   font-family: Inter;
   font-weight: 400;
   font-size: 24px;
@@ -104,6 +108,7 @@
 }
 
 .intro__text--3 {
+  font-family: "Inter-Regular";
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
@@ -113,9 +118,9 @@
 }
 
 .footer {
+  font-family: "Inter-Regular";
   text-align: center;
   padding: 20px;
-  font-family: Inter;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -125,16 +130,39 @@
 /* Media Queries para diseño responsivo */
 
 @media (max-width: 768px) {
+  .header__logo {
+    display: flex;
+    width: 32px;
+    height: 30.17px;
+  }
+
   .intro {
     padding: 20px;
   }
 
   .intro__title {
-    font-size: 2rem;
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 79px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .intro__description {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 
-  .intro__description {
-    font-size: 1rem;
+  .intro__image {
+    filter: grayscale(100%);
+    width: 768px;
+    height: 480px;
+    top: 562px;
+    left: 148px;
   }
 }
 
