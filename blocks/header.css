@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header__logo {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+
+.header__paragraph {
+  display: flex;
+  width: 254.8373565673828px;
+  height: 14.943096160888672px;
+  top: 54px;
+}

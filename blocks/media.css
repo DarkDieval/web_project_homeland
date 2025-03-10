@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .intro {
+    padding: 20px;
+  }
+
+  .intro__title {
+    font-size: 2rem;
+  }
+
+  .intro__description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__logo {
+    margin-bottom: 10px;
+  }
+}
