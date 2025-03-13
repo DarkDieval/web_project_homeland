@@ -29,6 +29,10 @@
   height: 32px;
 }
 
+.header__paragraph {
+  font-family: "Inter-Black";
+}
+
 .homelandArt {
   display: flex;
   flex-direction: column;
@@ -120,22 +124,31 @@
   padding-bottom: 24px;
 }
 
-/* Media Queries para diseño responsivo */
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 100%;
+    height: auto;
+  }
 
-@media (max-width: 768px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
   .header__logo {
-    display: flex;
     width: 32px;
     height: 30.17px;
-    padding-bottom: 90px;
+  }
+
+  .header__paragraph {
+    font-family: "Inter-Black";
   }
 
   .homelandArt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 768px;
-    height: 765px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     padding-bottom: 90px;
   }
@@ -146,7 +159,8 @@
     font-size: 75px;
     line-height: 79px;
     letter-spacing: 0%;
-    text-align: center;
+    width: 100%;
+    height: auto;
   }
 
   .homelandArt__description {
@@ -155,21 +169,23 @@
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0%;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
   }
 
   .homelandArt__image {
     filter: grayscale(100%);
-    width: 768px;
-    height: 480px;
+    width: 100%;
+    height: auto;
   }
 
   .homelandStory {
-    display: flex;
-    flex-direction: column;
-    width: 768px;
-    height: 480px;
-    margin-bottom: 88px;
+    width: 100%;
+    margin: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 88px;
   }
 
   .homelandStory__subtitle {
@@ -215,36 +231,71 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
+  .page {
+    font-family: "Inter-Black", "Inter-Regular", sans-serif;
+    color: #ffffff;
+    background-color: #2a2c2f;
+    max-width: 100%;
+    margin: 0 auto; /* Centrar el contenido */
+  }
+
+  .header {
+    font-family: "Inter-Black";
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
   .header__logo {
-    display: flex;
     width: 23.69px;
     height: 23.77px;
   }
 
+  .header__paragraph {
+    font-family: "Inter-Black";
+  }
+
   .homelandArt {
-    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 64px;
   }
 
   .homelandArt__title {
     font-family: "Inter-Black";
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0%;
     text-align: center;
+    font-weight: 900;
+    width: 100%;
+    height: auto;
   }
+
   .homelandArt__description {
     font-family: "Inter-Regular";
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0%;
-    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
   }
 
   .homelandArt__image {
     filter: grayscale(100%);
+    width: 100%;
+    height: auto;
+  }
+
+  .homelandStory {
+    width: 100%;
+    height: auto;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 64px;
   }
 
   .homelandStory__subtitle {
@@ -287,5 +338,7 @@
     font-size: 14px;
     line-height: 14px;
     letter-spacing: 0%;
+    padding-top: 92px;
+    padding-bottom: 24px;
   }
 }
