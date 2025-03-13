@@ -1,15 +1,15 @@
-.main {
+.content {
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
-  .main {
+  .content {
     box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .main {
+  .content {
     box-sizing: border-box;
   }
 }
