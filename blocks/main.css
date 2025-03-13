@@ -1,0 +1,15 @@
+.main {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    box-sizing: border-box;
+  }
+}
