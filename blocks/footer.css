@@ -6,7 +6,12 @@
   line-height: 16px;
   padding-bottom: 24px;
 }
-
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer {
     font-family: "Inter-Regular";
@@ -14,11 +19,15 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    padding-top: 92px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .footer {
+    font-size: 14px;
+    line-height: 14px;
     padding-bottom: 24px;
   }
 }
-
 @media screen and (max-width: 320px) {
   .footer {
     font-family: "Inter-Regular";
