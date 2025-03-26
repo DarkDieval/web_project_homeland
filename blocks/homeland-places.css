@@ -1,0 +1,104 @@
+.homeland-places {
+  width: 100%;
+  height: auto;
+}
+
+.homeland-places__card-content {
+  display: grid;
+  width: 984px;
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "title ."
+    "title header"
+    "image first-text"
+    "image second-text"
+    "button .";
+  border: solid 1px red;
+  margin: 0 auto;
+}
+
+.homeland-places__card-title {
+  grid-area: title;
+  font-family: Inter-Black;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  width: 460px;
+  height: 152px;
+  align-self: start;
+  margin: 0 auto;
+}
+
+.homeland-places__card-image {
+  grid-area: image;
+  width: 460px;
+  height: 460px;
+  align-self: start;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.homeland-places__card-header {
+  grid-area: header;
+  width: 456px;
+  height: 67px;
+  align-self: start;
+  padding-bottom: 48px;
+}
+
+.homeland-places__card-header-title {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  align-self: start;
+}
+
+.homeland-places__card-author {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: start;
+}
+
+.homeland-places__card-project {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: start;
+}
+
+.homeland-places__card-first-text {
+  grid-area: first-text;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  width: 484px;
+  height: 203px;
+  align-self: start;
+}
+
+.homeland-places__card-second-text {
+  grid-area: second-text;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  width: 484px;
+  height: 261px;
+  align-self: start;
+}
+
+.homeland-places__card-button {
+  grid-area: button;
+  width: 289px;
+  height: 48px;
+  justify-self: start;
+}
