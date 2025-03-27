@@ -194,7 +194,7 @@
     justify-self: start;
     box-shadow: 5px 5px 10px 0 #000000;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border-radius: 5px;
     border: none;
     transition: filter 0.3s ease, box-shadow 0.3s ease;
@@ -298,7 +298,7 @@
     justify-self: start;
     box-shadow: 5px 5px 10px 0 #000000;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border-radius: 5px;
     border: none;
     transition: filter 0.3s ease, box-shadow 0.3s ease;
@@ -393,7 +393,7 @@
     justify-self: start;
     box-shadow: 5px 5px 10px 0 #000000;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border-radius: 5px;
     border: none;
     transition: filter 0.3s ease, box-shadow 0.3s ease;
@@ -483,7 +483,7 @@
     justify-self: flex-start;
     box-shadow: 5px 5px 10px 0 #000000;
     color: #ffffff;
-    background-image: linear-gradient(to right, #0278fe, #003a7b);
+    background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     border-radius: 5px;
     border: none;
     transition: filter 0.3s ease, box-shadow 0.3s ease;
