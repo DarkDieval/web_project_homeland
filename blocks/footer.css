@@ -5,11 +5,13 @@
   font-size: 14px;
   line-height: 16px;
   padding-bottom: 24px;
+  padding-top: 10px;
 }
 @media screen and (max-width: 1024px) {
   .footer {
     font-size: 14px;
     line-height: 16px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -19,6 +21,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 544px) {
@@ -26,6 +29,7 @@
     font-size: 14px;
     line-height: 14px;
     padding-bottom: 24px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 320px) {

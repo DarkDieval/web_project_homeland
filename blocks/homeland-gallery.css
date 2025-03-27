@@ -104,6 +104,7 @@
     row-gap: 16px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 62px;
   }
 
   .homeland-gallery__image {
