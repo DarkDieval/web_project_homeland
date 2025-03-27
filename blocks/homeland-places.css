@@ -41,7 +41,7 @@
 
 .homeland-places__card-image:hover {
   filter: brightness(0.7);
-  box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 .homeland-places__card-header {
@@ -98,7 +98,7 @@
 
 .homeland-places__card-button:hover {
   filter: brightness(0.7);
-  box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1024px) {
@@ -145,7 +145,7 @@
 
   .homeland-places__card-image:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 
   .homeland-places__card-header {
@@ -203,7 +203,7 @@
 
   .homeland-places__card-button:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 }
 @media screen and (max-width: 768px) {
@@ -249,7 +249,7 @@
 
   .homeland-places__card-image:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 
   .homeland-places__card-header {
@@ -308,7 +308,7 @@
 
   .homeland-places__card-button:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 }
 @media screen and (max-width: 544px) {
@@ -348,7 +348,7 @@
 
   .homeland-places__card-image:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 
   .homeland-places__card-header {
@@ -402,7 +402,7 @@
 
   .homeland-places__card-button:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 }
 @media screen and (max-width: 320px) {
@@ -441,7 +441,7 @@
 
   .homeland-places__card-image:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 
   .homeland-places__card-header {
@@ -491,6 +491,6 @@
 
   .homeland-places__card-button:hover {
     filter: brightness(0.7);
-    box-shadow: 0px 1px 3px 0px #000000(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   }
 }
