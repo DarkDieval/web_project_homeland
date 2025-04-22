@@ -13,7 +13,7 @@ Tecnologías usadas:
 
 - HTML5
 - CSS
-- Media Queries
+- Media Queries (para diseño responsivo)
 
 Planes de mejora:
 
